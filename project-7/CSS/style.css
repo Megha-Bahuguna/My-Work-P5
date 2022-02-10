@@ -1,0 +1,253 @@
+/* #section1{
+    background: black;
+} */
+
+/* 
+header h1{
+    color: red;
+    border: 2px solid red;
+} */
+
+body {
+    margin: 0px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Architects Daughter', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS variables */
+:root{
+    --navbar-height: 59px;
+
+}
+
+#heading header h1 p {
+    display: inline;
+    text-align: center;
+    font-size: 56px;
+    color: rgb(250, 246, 246);
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 106px;
+    left: 8em;
+    margin: 0px 0px;
+    padding: 3px 27px;
+}
+
+
+header .img1 img{
+    margin: -90px 1px;
+    padding: 2px 1px;
+    border: 2px solid black;
+    /* background-size: cover !important; */
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 12em;
+    /* opacity: 0.7; */
+    filter: brightness(50%);
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+#navbar a{
+    padding: 7px 1px;
+    margin: 23px 28px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+#navbar{
+    position: absolute;
+    left: 160px;
+    text-align: center;
+    border: 2px solid rgb(5, 5, 5);
+    background-color: rgb(3, 3, 3);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 22px;
+}
+#navbar a:hover{
+  
+color: rgb(177, 129, 196);
+
+}
+
+.art main section h2{
+    left: 8em;
+    text-align: center;
+    color: black;
+    position: relative;
+    margin: 10px 15em;
+    padding: 6px 18px;
+    /* cursor: pointer; */
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    font-size: 25px;
+    position: absolute;
+    top: 16em;
+
+}
+#section1 .art .video{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    top: 32em;
+    margin: 8px 1px;
+    padding: 15px 0px;
+}
+#section1 .art .video iframe{
+    margin: 16px 2px;
+    padding: 9px 9px;
+    border: 2px solid rgb(3, 3, 3);
+}
+#section1 .art .video iframe:hover{
+    background-color: rgb(163, 158, 158);
+    border: black;
+}
+
+#section1 .art .video2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    top: 47em;
+    margin: 22px 3px;
+    padding: 22px 6px;
+}
+
+#section1 .art .video2 iframe{
+    margin: 15px    1px;
+    padding: 10px 8px;
+    border: 2px solid rgb(237 9 9);
+}
+#section1 .art .video2 iframe:hover{
+    background-color: rgb(163, 158, 158);
+    border: black;
+    
+}
+
+#section2 .gallerys  h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 45em;
+    left: 25em;
+    margin: 10px -2em;
+    padding: 6px 18px;
+   
+    border: 1px solid blueviolet;
+    
+    font-size: 25px;
+    
+}
+
+
+ 
+
+ .gallerys  img{
+    border: 1px solid black;
+    grid-template-columns: 1fr   1fr  1fr   1fr;
+    /* border: 2px solid red; */
+    margin: 70px 13px;
+    padding: 10px 9px;
+    width: 279px;
+
+
+}
+.gallerys  img:visited{
+    
+    transition: transform .1s;
+    width: 350px;
+    
+    transform: scale(1.5);
+}
+
+
+
+  .im  {
+    position: absolute;
+    top: 75em;
+  
+    display: grid;
+    grid-template-columns: 1fr   1fr  1fr   1fr ;
+}
+
+.im1 {
+    position: absolute;
+    top: 95em;
+ 
+    display: grid;
+    grid-template-columns: 1fr   1fr  1fr   1fr ;
+}
+.im2  {
+    position: absolute;
+    top: 115em;
+  
+    display: grid;
+    grid-template-columns: 1fr   1fr  1fr   1fr ;
+}
+.im3  {
+    position: absolute;
+    top: 135em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.im3  h3{
+    font-size: 3em;
+    position: absolute;
+    top: 2em;
+    left: 15em;
+    padding: 4px 5px;
+    margin: 0px -16px;
+    display: inline;
+}
+.im3  h3 p{
+    font-size: 2em;
+    position: absolute;
+    top: 33px;
+    left: 55px;
+    padding: 4px 5px;
+    margin: 0px -16px;
+}
+.im3 .pin{
+    display: flex;
+}
+.im3 .pin a{
+    color: red;
+    position: absolute;
+    top: -38px;
+    left: 236px;
+    padding: 0px 35px;
+    margin: 1px 10px;
+    padding-top: 18px;
+    font-size: 131px;
+}
+.im3 .pin a:hover{
+border: 1px solid rgb(192, 82, 82);
+border-radius: 500px;
+}
+
+
+#foot footer{
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    top: 131em;
+    font: bold;
+    
+}
+#foot p{
+    padding: 11px 11px;
+    color: white;
+  
+}
+
+
+    
